@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#00aabb"
+
+    android:background="#6F7B7C"
     android:padding="50px"
     xmlns:android="http://schemas.android.com/apk/res/android" >
     <TextView
@@ -29,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:background="#3A4343"
         android:id="@+id/loginbtn"
         android:layout_margin="20px"/>
 
