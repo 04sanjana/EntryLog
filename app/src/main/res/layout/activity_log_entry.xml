@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="50px"
-    android:background="#6F7B7C"
+    android:background="@drawable/background"
 
 
     xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -14,9 +14,11 @@
         android:textColor="#CEF1F4"
         android:text="LogEntry"
         android:gravity="center"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_double_arrow_24"
         android:textColor="#CEF1F4"
         android:text="NAME"/>
     <EditText
@@ -28,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#CEF1F4"
+        android:drawableLeft="@drawable/baseline_double_arrow_24"
         android:text="Admission Number"/>
     <EditText
         android:layout_width="match_parent"
@@ -38,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#CEF1F4"
+        android:drawableLeft="@drawable/baseline_double_arrow_24"
         android:text="SystemNo"/>
     <EditText
         android:layout_width="match_parent"
@@ -49,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#CEF1F4"
+        android:drawableLeft="@drawable/baseline_double_arrow_24"
         android:text="Dept"/>
     <EditText
         android:layout_width="match_parent"
@@ -60,16 +65,16 @@
         android:layout_height="wrap_content"
         android:layout_margin="20px"
         android:text="Logout"
-        android:background="#3A4343"
+        android:background="@drawable/btn"
         android:id="@+id/logoutbtn"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20px"
         android:text="Add"
-        android:background="#3A4343"
+        android:background="@drawable/btn"
 
-        android:id="@+id/add"/>
+        android:id="@+id/addbtn"/>
 
 
 </LinearLayout>

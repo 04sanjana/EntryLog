@@ -4,12 +4,19 @@
     android:gravity="center"
     android:orientation="vertical"
 
-    android:background="#6F7B7C"
+    android:background="@drawable/background"
     android:padding="50px"
+
     xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="277dp"
+        android:background="@drawable/logo"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_how_to_reg_24"
         android:text="Username"/>
     <EditText
         android:layout_width="match_parent"
@@ -19,6 +26,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableRight="@drawable/baseline_lock_24"
         android:text="Password"/>
     <EditText
         android:layout_width="match_parent"
@@ -30,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:background="#3A4343"
+        android:background="@drawable/btn"
         android:id="@+id/loginbtn"
         android:layout_margin="20px"/>
 
